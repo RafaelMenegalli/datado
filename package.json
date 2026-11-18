@@ -1,0 +1,27 @@
+{
+  "name": "datado",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "db:seed": "node --env-file=.env.local scripts/seed.mjs",
+    "db:seed:editions": "node --env-file=.env.local scripts/seed-editions.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "maplibre-gl": "^5.24.1",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3"
+  }
+}
