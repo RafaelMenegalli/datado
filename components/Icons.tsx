@@ -58,6 +58,11 @@ export const IconChat = (p: P) => (
     <path d="M21 12a8.5 8.5 0 0 1-12.4 7.5L3.5 21l1.6-4.8A8.5 8.5 0 1 1 21 12z" />
   </svg>
 );
+export const IconPlay = (p: P) => (
+  <svg {...base} fill="currentColor" strokeWidth={1.6} width={22} height={22} {...p}>
+    <path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" />
+  </svg>
+);
 export const IconZoom = (p: P) => (
   <svg {...base} {...p}>
     <circle cx="11" cy="11" r="7" />
